@@ -12,9 +12,15 @@
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
+    margin-left: 50px;
     
-   
-    
+}
+
+.Kronorium h1{
+    border: inset 0.1em rgb(126, 26, 116);
+    display: inline-block;
+    padding: 0.2em;
+
 }
 
 
@@ -43,7 +49,7 @@ a:hover{
     font-size: 1em;
     display: flex;
     justify-content: center;
-    border: solid 0.2em rgb(22, 15, 67);
+    border: solid 0.2em rgb(67, 15, 58);
 }
 
 
@@ -76,7 +82,7 @@ a:hover{
 }
 
 .imageRed{
-    height: 200px;
+    
     width: 800px;
     height: 500px;
     margin-top: 20px;
@@ -89,6 +95,7 @@ a:hover{
 
 .imageRed:hover{
     width: 900px;
+    height: 550px;
 }
 
 .sectionCall{
@@ -119,7 +126,7 @@ a:hover{
 }
 
 .imageCall:hover{
-    width: 550px;
+    width: 900px;
     
 }
 
