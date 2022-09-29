@@ -13,6 +13,7 @@
     margin-bottom: 50px;
     text-align: center;
     margin-left: 50px;
+   
     
 }
 
@@ -38,12 +39,13 @@ a{
 }
 
 a:hover{
-    font-size: 40px;
+    font-size: 45px;
     transition: 1s;
 }
 
 .header{
     position: sticky;
+    
     top: 0px;
     
     font-size: 1em;
@@ -104,7 +106,7 @@ a:hover{
     margin-top: 20px;
     border-radius: 1em;
     padding: 25px;
-    max-width: 700px;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -134,7 +136,7 @@ a:hover{
     margin: 20px;
     background-color: black;
     padding: 20px;
-    
+    margin: 60px;
     border-radius: 1em;
     display: flex;
     flex-direction: column;
@@ -143,15 +145,21 @@ a:hover{
 }
 
 .imageGod{
-    width: 400px;
+    width: 800px;
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 1em;
+    transition: 1s;
+    
+}
+
+.imageGod:hover{
+    width: 900px;
 }
 
 .sectionEllie{
     background-color: black;
-    max-width: 700px;
+    
     margin: 20px;
     border-radius: 1em;
     display: flex;
@@ -160,24 +168,195 @@ a:hover{
 }
 
 .imageEllie{
-    width: 400px;
+    width: 800px;
     margin: 20px;
     border-radius: 1em;
+    transition: 1s;
+}
+
+.imageEllie:hover{
+    width: 900px;
 }
 
 .sectionSpiderman{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 70px;
 }
 
 .imageSpiderman{
     border-radius: 1em;
     margin-top: 20px;
-    width: 450px;
+    width: 800px;
+    transition: 1s;
 }
 
 .imageSpiderman:hover{
-    width: 550px;
+    width: 900px;
 }
 
+main h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+.imagePlus{
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+.codBo3{
+    width: 100%;
+    height: 50%;
+}
+
+.remastered{
+    width: 100%;
+    
+}
+
+.contenedor{
+   display: flex;
+   
+}
+
+.titulo1{
+    text-align: center;
+    font-size: 50px;
+}
+.par{
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contenedor2{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.contenedor2 section h2{
+    text-align: center;
+}
+
+.contenedor2 section p{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.mainGrid{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+
+.psPlus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+.psPlus h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.container{
+    
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+         "zombies IX voyage"
+         "zombies blood primis";
+}
+
+.zombies{
+    grid-area: zombies;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    
+    
+    
+}
+
+.zombies h3{
+    font-size: 40px;
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+
+.zombies p{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.imageZombies{
+    width: 700px;
+}
+
+.IX{
+    grid-area: IX;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.IX h3{
+      font-size: 30px;
+      margin-top: 20px;
+      margin-bottom: 50px;
+}
+
+.voyage{
+    grid-area: voyage;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.voyage h3{
+    font-size: 30px;
+      margin-top: 20px;
+      margin-bottom: 50px;
+}
+
+.blood{
+    grid-area: blood;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.blood h3{
+    font-size: 30px;
+      margin-top: 20px;
+      margin-bottom: 50px;
+}
+
+.primis{
+    grid-area: primis;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.primis h3{
+    font-size: 30px;
+      margin-top: 20px;
+      margin-bottom: 50px;
+}
